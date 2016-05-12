@@ -467,12 +467,12 @@ label:empty {
     padding-right: 20px;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-1 > .col > .content-area {
     min-height: 0px;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-2 > .col > .content-area {
     min-height: 367px;
   }
@@ -819,12 +819,12 @@ label:empty {
   display: inline;
   width: 50%;
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-3 > .col > .content-area {
     min-height: 294px;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-4 > .col > .content-area {
     min-height: 96px;
   }
@@ -917,7 +917,7 @@ label:empty {
     padding-left: 0px !important;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-5 > .col > .content-area {
     min-height: 71px;
   }
@@ -956,32 +956,32 @@ label:empty {
     left: 34px;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-6 > .col > .content-area {
     min-height: 64px;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-7 > .col > .content-area {
     min-height: 57px;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-8 > .col > .content-area {
     min-height: 60px;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-9 > .col > .content-area {
     min-height: 64px;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-10 > .col > .content-area {
     min-height: 58px;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-11 > .col > .content-area {
     min-height: 77px;
   }
@@ -1326,7 +1326,7 @@ label:empty {
     background-attachment: scroll;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-12 > .col > .content-area {
     min-height: 162px;
   }
@@ -1349,7 +1349,7 @@ label:empty {
     padding-left: 0px !important;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-13 > .col > .content-area {
     min-height: 418px;
   }
@@ -1390,7 +1390,7 @@ label:empty {
     padding-left: 0px !important;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-14 > .col > .content-area {
     min-height: 441px;
   }
@@ -1421,7 +1421,7 @@ label:empty {
     padding-left: 0px !important;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-15 > .col > .content-area {
     min-height: 435px;
   }
@@ -1452,7 +1452,7 @@ label:empty {
     padding-left: 0px !important;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-16 > .col > .content-area {
     min-height: 442px;
   }
@@ -1483,7 +1483,7 @@ label:empty {
     padding-left: 0px !important;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-17 > .col > .content-area {
     min-height: 426px;
   }
@@ -1514,9 +1514,9 @@ label:empty {
     padding-left: 0px !important;
   }
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-18 > .col > .content-area {
-    min-height: 447px;
+    min-height: 526px;
   }
 }
 @media all {
@@ -1626,7 +1626,7 @@ label:empty {
 @media all {
   
 }
-@media all and (min-width: 201px) {
+@media all and (min-width: 152px) {
   .row-height-19 > .col > .content-area {
     min-height: 51px;
   }
@@ -1656,5 +1656,40 @@ label:empty {
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
+  }
+}
+@media all {
+  .gauge {
+    max-height: 200px;
+  }
+}
+@media all {
+  .wrapping-col > .forms-margins,
+  .wrapping-col > .afScrollPanel > .forms-margins {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .wrapping-col > .forms-margins,
+  .wrapping-col > .afScrollPanel > .forms-margins {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .forms-margins {
+    margin-top: -1px;
+  }
+}
+@media all {
+  .wrapping-col > .texts-sizing,
+  .wrapping-col > .afScrollPanel > .texts-sizing {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .wrapping-col > .texts-sizing,
+  .wrapping-col > .afScrollPanel > .texts-sizing {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .texts-sizing {
+    margin-bottom: -2px;
   }
 }
