@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "6741ef7d-0bad-40a4-a256-750546815d39",
-      "lastModifiedDate": 1463014263257,
+      "lastModifiedDate": 1463075905095,
       "creationDate": 1462667213782
     },
     "XDK-app-designer": "true",
@@ -89,7 +89,7 @@
           "android-targetSdkVersion": "21",
           "android-installLocation": "internalOnly",
           "android-signed": true,
-          "Fullscreen": true,
+          "Fullscreen": false,
           "Orientation": "portrait"
         },
         "isActive_": true,
@@ -134,8 +134,8 @@
         "certificateId_": "HMOOBEjpm0SfRKt0o1v5Kw2",
         "cordovaCLIVersion_": "5.4.1",
         "crosswalkVersion_": "17",
-        "appVersion_": "0.1.1",
-        "appAuthor_": "Diogo Lopes",
+        "appVersion_": "0.1.3",
+        "appAuthor_": "WWDevelop",
         "appDescription_": "App MultiFunção do UNASP",
         "appVersionCode_": "002"
       },
@@ -176,9 +176,9 @@
         "iosProvs_": [],
         "cordovaCLIVersion_": "5.4.1",
         "crosswalkVersion_": "16",
-        "appVersion_": "0.0.1",
-        "appAuthor_": "Intel XDK",
-        "appDescription_": "Template to develop a Cordova mobile web app using the App Designer UI editor."
+        "appVersion_": "0.1.3",
+        "appAuthor_": "WWDevelop",
+        "appDescription_": "App MultiFunção do UNASP"
       },
       "Windows8": {
         "platform_": "windows8",
