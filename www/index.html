@@ -1,37 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <!--
-  * Please see the included README.md file for license terms and conditions.
-  -->
 
     <head>
         <link rel="stylesheet" type="text/css" href="media_button_bar/css/media_button_bar.css">
         <link rel="stylesheet" type="text/css" href="simplex/css/simplex.min.css" class="uib-framework-theme">
         <meta charset="UTF-8">
-        <title>Blank App Designer Cordova Web App Project Template</title>
+        <title>UnaspFacil</title>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-
-        <!--
-  * The "meta viewport" tag (below) helps your app size appropriately to a device's ideal viewport.
-  * Note that Windows device viewports work better when initialized using the @viewport CSS rule.
-  * For a quick overview of "meta viewport" and @viewport, see this article:
-  *   http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag
-  * To see how it works, try your app on a real device with and without a "meta viewport" tag.
-  * Additional useful references include:
-  *   http://www.quirksmode.org/mobile/viewports.html
-  *   http://www.quirksmode.org/mobile/metaviewport/devices.html
-  *   https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html
--->
 
         <!-- <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1"> -->
         <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
         <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1, maximum-scale=2"> -->
 
         <style>
-            /* following three (cascaded) are equivalent to above three meta viewport statements */
-            /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html */
-            /* see http://dev.w3.org/csswg/css-device-adapt/ */
-                @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+            @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
                 @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
                 /*@-ms-viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }   @viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }*/
         </style>
@@ -67,6 +49,10 @@
         <script type="application/javascript" src="js/index_user_scripts.js"></script>
         <script type="application/javascript" src="xdk/ad/bs_subpage.js"></script>
         <script type="application/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <script type="application/javascript" src="sidebar/js/hammer.js"></script>
+        <script type="application/javascript" src="sidebar/js/jquery.hammer.js"></script>
+        <script type="application/javascript" src="sidebar/js/swipe-hammer.js"></script>
+        <script type="application/javascript" src="sidebar/js/sidebar.js"></script>
     </head>
 
     <body>
@@ -234,14 +220,9 @@
         </div>
         <div class="upage hidden back-color" id="saida">
             <div class="upage-outer">
-                <div class="uib-header header-bg container-group inner-element uib_w_25 header-internal-sizing" data-uib="layout/header" data-ver="0">
-                    <h2></h2>
-                    <div class="widget-container wrapping-col single-centered"></div>
-                    <div class="widget-container content-area horiz-area wrapping-col left"></div>
-                    <div class="widget-container content-area horiz-area wrapping-col right"></div>
-                </div>
 
                 <div class="upage-content ac0 content-area vertical-col left" id="page_14_10">
+
                     <div class="grid grid-pad urow uib_row_18 row-height-18" data-uib="layout/row" data-ver="0">
                         <div class="col uib_col_14 col-0_12-12" data-uib="layout/col" data-ver="0">
                             <div class="widget-container content-area vertical-col">
