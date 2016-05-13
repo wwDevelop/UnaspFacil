@@ -81,14 +81,17 @@
                                     </div>
                                     <span class="uib_shim"></span>
                                 </div>
-                                <div class="table-thing widget uib_w_1 d-margins" data-uib="twitter%20bootstrap/input" data-ver="1">
-                                    <label class="narrow-control"></label>
-                                    <input class="wide-control form-control default" type="text" placeholder="Login">
-                                </div>
-                                <div class="table-thing widget uib_w_2 senha-margins forms-witdths" data-uib="twitter%20bootstrap/input" data-ver="1">
-                                    <label class="narrow-control"></label>
-                                    <input class="wide-control form-control default" type="password" placeholder="Senha">
-                                </div>
+                                <!-- Criado form para pegar os dados para enviar pelo JSON -->
+                                <form id="loginform">
+                                    <div class="table-thing widget uib_w_1 d-margins forms-witdths" data-uib="twitter%20bootstrap/input" data-ver="1">
+                                        <label class="narrow-control" for="login"></label>
+                                        <input class="wide-control form-control default" type="text" placeholder="Login" id="login">
+                                    </div>
+                                    <div class="table-thing widget uib_w_2 senha-margins forms-witdths" data-uib="twitter%20bootstrap/input" data-ver="1">
+                                        <label class="narrow-control" for="senha"></label>
+                                        <input class="wide-control form-control default" type="password" placeholder="Senha" id="senha">
+                                    </div>
+                                </form>
                                 <div class="grid grid-pad urow uib_row_5 row-height-5" data-uib="layout/row" data-ver="0">
                                     <div class="col uib_col_7 col-1_12-12" data-uib="layout/col" data-ver="0">
                                         <div class="widget-container content-area vertical-col">
@@ -102,7 +105,10 @@
 
                                 <span class="uib_shim"></span>
                             </div>
-                            <button class="btn widget uib_w_5 uib-absolute d-margins uib-absolute-positioning-3 login-btn-width btn-info" data-uib="twitter%20bootstrap/button" data-ver="1">LOGIN</button>
+                            <button class="btn widget uib_w_5 uib-absolute d-margins uib-absolute-positioning-3 login-btn-width btn-info" data-uib="twitter%20bootstrap/button" data-ver="1" type="submit" id="loginbtn">LOGIN</button>
+
+                            <!-- Inicia o script para enviar o JSON ao WS -->
+
                         </div><span class="uib_shim"></span>
                     </div>
                 </div>
@@ -114,6 +120,17 @@
                 </div>
             </div>
         </div>
+        <script>
+            $("#loginform").submit(function(){
+                                
+                                logindata= new Object();
+                                logindata.login= $("#login").val();
+                                logindata.senha= $("#senha").val();
+                                
+                                tjson=JSON.stringify(logindata);
+                                alert(tjson);
+                            }
+        </script>
         <div class="upage hidden vertical-col back-color" id="principal">
 
             <a class="uib-graphic-button hover-graphic-button active-graphic-button default-graphic-button widget uib_w_6 imgmargins menu-img-sizing menu-btn-sizing" data-uib="media/graphic_button" data-ver="0" id="Saida">
@@ -121,7 +138,7 @@
 
                 <span class="uib-caption"></span>
             </a>
-            <a class="uib-graphic-button hover-graphic-button active-graphic-button default-graphic-button default-graphic-text widget uib_w_7 menu-img-sizing imgmargins menu-btn-sizing" data-uib="media/graphic_button" data-ver="0" id="Culto">
+            <a class="uib-graphic-button hover-graphic-button active-graphic-button default-graphic-button default-graphic-text widget uib_w_7 menu-img-sizing imgmargins menu-btn-sizing" data-uib="media/graphic_button" data-ver="0" id="culto">
                 <img src="images/Culto.jpg">
 
                 <span class="uib-caption"></span>
@@ -144,7 +161,7 @@
 
         </div>
 
-        <div class="upage hidden" id="Calendario">
+        <div class="upage hidden back-color" id="Calendario">
             <div class="upage-outer">
                 <div class="uib-header header-bg container-group inner-element uib_w_16" data-uib="layout/header" data-ver="0">
                     <h2>Area Calendário</h2>
@@ -165,7 +182,7 @@
                 </div>
             </div>
         </div>
-        <div class="upage hidden" id="Renovacao">
+        <div class="upage hidden back-color" id="Renovacao">
             <div class="upage-outer">
                 <div class="uib-header header-bg container-group inner-element uib_w_15" data-uib="layout/header" data-ver="0">
                     <h2>Area Renovação</h2>
@@ -186,7 +203,7 @@
                 </div>
             </div>
         </div>
-        <div class="upage hidden" id="Lavanderia">
+        <div class="upage hidden back-color" id="Lavanderia">
             <div class="upage-outer">
                 <div class="uib-header header-bg container-group inner-element uib_w_14" data-uib="layout/header" data-ver="0">
                     <h2>Area Lavanderia</h2>
@@ -207,7 +224,7 @@
                 </div>
             </div>
         </div>
-        <div class="upage hidden" id="culto">
+        <div class="upage hidden back-color" id="Culto">
             <div class="upage-outer">
                 <div class="uib-header header-bg container-group inner-element uib_w_13" data-uib="layout/header" data-ver="0">
                     <h2>Area Culto</h2>
@@ -215,7 +232,7 @@
                     <div class="widget-container content-area horiz-area wrapping-col left"></div>
                     <div class="widget-container content-area horiz-area wrapping-col right"></div>
                 </div>
-                <div class="upage-content ac0 content-area vertical-col left" id="page_13_18">
+                <div class="upage-content ac0 content-area vertical-col" id="page_13_18">
                     <div class="grid grid-pad urow uib_row_17 row-height-17" data-uib="layout/row" data-ver="0">
                         <div class="col uib_col_13 col-0_12-12" data-uib="layout/col" data-ver="0">
                             <div class="widget-container content-area vertical-col">
