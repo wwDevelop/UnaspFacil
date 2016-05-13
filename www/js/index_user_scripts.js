@@ -167,17 +167,23 @@
     });
     
         /* button  Voltar */
-    $(document).on("click", ".uib_w_23", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#principal"); 
-    });
+    
     
         /* button  Voltar */
     $(document).on("click", ".uib_w_24", function(evt)
     {
          /*global activate_page */
          activate_page("#principal"); 
+    });
+    
+        /* button  Voltar */
+    
+    
+        /* button  Voltar */
+    $(document).on("click", ".uib_w_23", function(evt)
+    {
+         /*global activate_subpage */
+         activate_subpage("#page_14_10"); 
     });
     
     }

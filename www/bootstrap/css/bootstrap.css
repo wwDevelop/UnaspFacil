@@ -2978,6 +2978,12 @@ fieldset[disabled] .btn-warning.active {
   background-color: #d9534f;
   border-color: #d43f3a;
 }
+.btn-dodgerblue {
+  color: #6495ED;
+  background-color: #1E90FF;
+  border-color: #00FFFF;
+  }
+
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger:active,
