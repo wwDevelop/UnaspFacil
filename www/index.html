@@ -112,25 +112,41 @@
                         </div><span class="uib_shim"></span>
                     </div>
                 </div>
-                <div class="uib-footer uib-footer-fixed footer-bg container-group inner-element uib_w_33" data-uib="layout/footer" data-ver="0">
-                    <h2></h2>
-                    <div class="widget-container wrapping-col single-centered"></div>
-                    <div class="widget-container content-area horiz-area wrapping-col left"></div>
-                    <div class="widget-container content-area horiz-area wrapping-col right"></div>
-                </div>
+
             </div>
         </div>
+        <!-- SISTEMA DE LOGIN POR WEB SERVICE, A SER IMPLEMENTADO ASSIM QUE O DOUGLAS FIZER O WEB SERVICE
         <script>
             $("#loginform").submit(function(){
                                 
                                 logindata= new Object();
+
                                 logindata.login= $("#login").val();
                                 logindata.senha= $("#senha").val();
                                 
                                 tjson=JSON.stringify(logindata);
-                                alert(tjson);
+                                alert(tjson); /* DEBUGS : TIRAR QUANDO IMPLEMENTAR */
                             }
+                        $.ajax({
+                            type: "POST",
+                            contentType:"application/json; charset=utf-8",
+                            url: "~inserir servidor do Douglas~", 
+                            data: tjson,
+                            success: function() {
+                                alert("Login Efetuado com Sucesso");
+                                activate_page("#principal");;
+         
+                            },
+                            error: function (xhr, ajaxOptions, thrownError) {
+                                alert("Usuário ou senha incorretos. Favor entrar em contato com a Coordenação dos Laboratórios");
+                                alert(xhr.status); /* DEBUGS : TIRAR QUANDO IMPLEMENTAR */
+                                alert(thrownError); /* DEBUGS : TIRAR QUANDO IMPLEMENTAR */
+      }
+    })
+    })
+                                
         </script>
+        -->
         <div class="upage hidden vertical-col back-color" id="principal">
 
             <a class="uib-graphic-button hover-graphic-button active-graphic-button default-graphic-button widget uib_w_6 imgmargins menu-img-sizing menu-btn-sizing" data-uib="media/graphic_button" data-ver="0" id="Saida">
