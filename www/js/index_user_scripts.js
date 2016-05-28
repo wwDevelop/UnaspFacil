@@ -101,25 +101,13 @@
     });
     
         /* button  Button */
-    $(document).on("click", ".uib_w_19", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#principal"); 
-    });
+    
     
         /* button  Button */
-    $(document).on("click", ".uib_w_20", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#principal"); 
-    });
+    
     
         /* button  Voltar */
-    $(document).on("click", ".uib_w_21", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#principal"); 
-    });
+    
     
         /* button  Button */
     $(document).on("click", ".uib_w_22", function(evt)
@@ -162,11 +150,7 @@
     
     
         /* button  Voltar */
-    $(document).on("click", ".uib_w_24", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#principal"); 
-    });
+    
     
         /* button  Voltar */
     
@@ -175,20 +159,13 @@
     
     
         /* button  LOGIN */
-    $(document).on("click", ".uib_w_5", function(evt)
-    {
-        /* your code goes here */ 
-    });
+    
     
         /* button  Voltar */
     
     
         /* button  Voltar */
-    $(document).on("click", ".uib_w_23", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#principal"); 
-    });
+    
     
         /* button  LOGIN */
     $(document).on("click", ".uib_w_5", function(evt)
@@ -202,6 +179,72 @@
     {
          /*global activate_page */
          activate_page("#Culto"); 
+    });
+    
+        /* graphic button  #saida */
+    $(document).on("click", "#saida", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#saida"); 
+    });
+    
+        /* graphic button  #culto */
+    $(document).on("click", "#culto", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#Culto"); 
+    });
+    
+        /* button  Voltar */
+    
+    
+        /* button  Voltar */
+    $(document).on("click", ".uib_w_19", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
+    });
+    
+        /* button  #saida-voltar */
+    $(document).on("click", "#saida-voltar", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
+    });
+    
+        /* button  #loginbtn */
+    $(document).on("click", "#loginbtn", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
+    });
+    
+        /* graphic button  #lavanderia */
+    $(document).on("click", "#lavanderia", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#Lavanderia"); 
+    });
+    
+        /* button  Voltar */
+    $(document).on("click", ".uib_w_20", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
+    });
+    
+        /* button  Voltar */
+    $(document).on("click", ".uib_w_21", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
+    });
+    
+        /* button  Voltar */
+    $(document).on("click", ".uib_w_24", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
     });
     
     }
