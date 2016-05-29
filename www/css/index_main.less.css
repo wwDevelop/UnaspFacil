@@ -3221,24 +3221,6 @@ label:empty {
     padding-left: 0px !important;
   }
 }
-.uib_row_27:not(.cright) > .col {
-  padding-right: 20px;
-}
-.uib_row_27.cright > .col {
-  padding-left: 20px;
-}
-@media all {
-  .col-0_12-12 {
-    width: auto;
-    float: none !important;
-  }
-  .urow:not(.cright) > .col-0_12-12 {
-    padding-right: 0px !important;
-  }
-  .urow.cright > .col-0_12-12 {
-    padding-left: 0px !important;
-  }
-}
 @media all and (min-width: 320px) {
   .row-height-27 > .col > .content-area {
     min-height: 144px;
@@ -3269,6 +3251,6 @@ label:empty {
 }
 @media all and (min-width: 320px) {
   .row-height-29 > .col > .content-area {
-    min-height: 100px;
+    min-height: 33px;
   }
 }

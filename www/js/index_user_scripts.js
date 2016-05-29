@@ -274,6 +274,196 @@
          activate_page("#Lavanderia"); 
     });
     
+        /* listitem  #btm-slider-abril */
+    
+    
+        /* listitem  #btm-slider-abril */
+    
+    
+        /* listitem  #btm-slider-abril */
+    $(document).on("click", "#btm-slider-abril", function(evt)
+    {
+         /*global uib_sb */
+         /* Other possible functions are: 
+           uib_sb.open_sidebar($sb)
+           uib_sb.close_sidebar($sb)
+           uib_sb.toggle_sidebar($sb)
+            uib_sb.close_all_sidebars()
+          See js/sidebar.js for the full sidebar API */
+        
+         uib_sb.toggle_sidebar($(".uib_w_41"));
+         activate_page("#Culto"); 
+         return false;
+    });
+    
+        /* listitem  #btm-slider-janeiro */
+    $(document).on("click", "#btm-slider-janeiro", function(evt)
+    {
+         /*global uib_sb */
+         /* Other possible functions are: 
+           uib_sb.open_sidebar($sb)
+           uib_sb.close_sidebar($sb)
+           uib_sb.toggle_sidebar($sb)
+            uib_sb.close_all_sidebars()
+          See js/sidebar.js for the full sidebar API */
+        
+         uib_sb.toggle_sidebar($(".uib_w_41"));  
+         return false;
+    });
+    
+        /* listitem  #btm-slider-fevereiro */
+    $(document).on("click", "#btm-slider-fevereiro", function(evt)
+    {
+         /*global uib_sb */
+         /* Other possible functions are: 
+           uib_sb.open_sidebar($sb)
+           uib_sb.close_sidebar($sb)
+           uib_sb.toggle_sidebar($sb)
+            uib_sb.close_all_sidebars()
+          See js/sidebar.js for the full sidebar API */
+        
+         uib_sb.toggle_sidebar($(".uib_w_41"));  
+         return false;
+    });
+    
+        /* listitem  #btm-slider-marco */
+    $(document).on("click", "#btm-slider-marco", function(evt)
+    {
+         /*global uib_sb */
+         /* Other possible functions are: 
+           uib_sb.open_sidebar($sb)
+           uib_sb.close_sidebar($sb)
+           uib_sb.toggle_sidebar($sb)
+            uib_sb.close_all_sidebars()
+          See js/sidebar.js for the full sidebar API */
+        
+         uib_sb.toggle_sidebar($(".uib_w_41"));  
+         return false;
+    });
+    
+        /* listitem  #btm-slider-maio */
+    $(document).on("click", "#btm-slider-maio", function(evt)
+    {
+         /*global uib_sb */
+         /* Other possible functions are: 
+           uib_sb.open_sidebar($sb)
+           uib_sb.close_sidebar($sb)
+           uib_sb.toggle_sidebar($sb)
+            uib_sb.close_all_sidebars()
+          See js/sidebar.js for the full sidebar API */
+        
+         uib_sb.toggle_sidebar($(".uib_w_41"));  
+         return false;
+    });
+    
+        /* listitem  #btm-slider-junho */
+    $(document).on("click", "#btm-slider-junho", function(evt)
+    {
+         /*global uib_sb */
+         /* Other possible functions are: 
+           uib_sb.open_sidebar($sb)
+           uib_sb.close_sidebar($sb)
+           uib_sb.toggle_sidebar($sb)
+            uib_sb.close_all_sidebars()
+          See js/sidebar.js for the full sidebar API */
+        
+         uib_sb.toggle_sidebar($(".uib_w_41"));  
+         return false;
+    });
+    
+        /* listitem  #btm-slider-julho */
+    $(document).on("click", "#btm-slider-julho", function(evt)
+    {
+         /*global uib_sb */
+         /* Other possible functions are: 
+           uib_sb.open_sidebar($sb)
+           uib_sb.close_sidebar($sb)
+           uib_sb.toggle_sidebar($sb)
+            uib_sb.close_all_sidebars()
+          See js/sidebar.js for the full sidebar API */
+        
+         uib_sb.toggle_sidebar($(".uib_w_41"));  
+         return false;
+    });
+    
+        /* listitem  #btm-slider-agosto */
+    $(document).on("click", "#btm-slider-agosto", function(evt)
+    {
+         /*global uib_sb */
+         /* Other possible functions are: 
+           uib_sb.open_sidebar($sb)
+           uib_sb.close_sidebar($sb)
+           uib_sb.toggle_sidebar($sb)
+            uib_sb.close_all_sidebars()
+          See js/sidebar.js for the full sidebar API */
+        
+         uib_sb.toggle_sidebar($(".uib_w_41"));  
+         return false;
+    });
+    
+        /* listitem  #btm-slider-setembro */
+    $(document).on("click", "#btm-slider-setembro", function(evt)
+    {
+         /*global uib_sb */
+         /* Other possible functions are: 
+           uib_sb.open_sidebar($sb)
+           uib_sb.close_sidebar($sb)
+           uib_sb.toggle_sidebar($sb)
+            uib_sb.close_all_sidebars()
+          See js/sidebar.js for the full sidebar API */
+        
+         uib_sb.toggle_sidebar($(".uib_w_41"));  
+         return false;
+    });
+    
+        /* listitem  #btm-slider-outubro */
+    $(document).on("click", "#btm-slider-outubro", function(evt)
+    {
+         /*global uib_sb */
+         /* Other possible functions are: 
+           uib_sb.open_sidebar($sb)
+           uib_sb.close_sidebar($sb)
+           uib_sb.toggle_sidebar($sb)
+            uib_sb.close_all_sidebars()
+          See js/sidebar.js for the full sidebar API */
+        
+         uib_sb.toggle_sidebar($(".uib_w_41"));  
+         return false;
+    });
+    
+        /* listitem  #btm-slider-novembro */
+    $(document).on("click", "#btm-slider-novembro", function(evt)
+    {
+         /*global uib_sb */
+         /* Other possible functions are: 
+           uib_sb.open_sidebar($sb)
+           uib_sb.close_sidebar($sb)
+           uib_sb.toggle_sidebar($sb)
+            uib_sb.close_all_sidebars()
+          See js/sidebar.js for the full sidebar API */
+        
+         uib_sb.toggle_sidebar($(".uib_w_41"));  
+         return false;
+    });
+    
+        /* listitem  #btm-slider-dezembro */
+    
+    
+        /* listitem  #btm-slider-dezembro */
+    $(document).on("click", "#btm-slider-dezembro", function(evt)
+    {
+         /*global uib_sb */
+         /* Other possible functions are: 
+           uib_sb.open_sidebar($sb)
+           uib_sb.close_sidebar($sb)
+           uib_sb.toggle_sidebar($sb)
+            uib_sb.close_all_sidebars()
+          See js/sidebar.js for the full sidebar API */
+        
+         uib_sb.toggle_sidebar($(".uib_w_41"));  
+         return false;
+    });
+    
     }
  document.addEventListener("app.Ready", register_event_handlers, false);
 })();
