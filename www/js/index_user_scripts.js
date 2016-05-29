@@ -130,11 +130,7 @@
     });
     
         /* graphic button  #renovacao */
-    $(document).on("click", "#renovacao", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#Renovacao"); 
-    });
+    
     
         /* graphic button  CRM */
     $(document).on("click", ".uib_w_11", function(evt)
@@ -175,11 +171,7 @@
     });
     
         /* graphic button  #culto */
-    $(document).on("click", "#culto", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#Culto"); 
-    });
+    
     
         /* graphic button  #saida */
     $(document).on("click", "#saida", function(evt)
@@ -245,6 +237,41 @@
     {
          /*global activate_page */
          activate_page("#main-menu"); 
+    });
+    
+        /* graphic button  #renovacao */
+    $(document).on("click", "#renovacao", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
+    });
+    
+        /* graphic button  #renovacao */
+    $(document).on("click", "#renovacao", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#Renovacao"); 
+    });
+    
+        /* graphic button  #calendario */
+    $(document).on("click", "#calendario", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#Calendario"); 
+    });
+    
+        /* graphic button  #culto */
+    $(document).on("click", "#culto", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#Culto"); 
+    });
+    
+        /* graphic button  #lavanderia */
+    $(document).on("click", "#lavanderia", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#Lavanderia"); 
     });
     
     }
