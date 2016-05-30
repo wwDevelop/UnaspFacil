@@ -1,7 +1,7 @@
-INFORMAÇÕES SOBRE A IMPLEMENTAÇÃO DO WEBSERVICE PARA O APP
+#INFORMAÇÕES SOBRE A IMPLEMENTAÇÃO DO WEBSERVICE PARA O APP
 
 
-SISTEMA DE LOGIN POR WEB SERVICE, A SER IMPLEMENTADO ASSIM QUE O DOUGLAS FIZER O WEB SERVICE
+###SISTEMA DE LOGIN POR WEB SERVICE, A SER IMPLEMENTADO ASSIM QUE O DOUGLAS FIZER O WEB SERVICE
 
        ' <script>
 
@@ -39,7 +39,7 @@ SISTEMA DE LOGIN POR WEB SERVICE, A SER IMPLEMENTADO ASSIM QUE O DOUGLAS FIZER O
         </script>'
 
 
-*/
+
 
 O script recebe do form o login(ra) e a senha do usuário, cria um json com essas informações e envia por POST para o web service, esse verifica se esse RA é de um aluno interno e se a senha (que é a mesma do UNASPACAD) está correta e retorna para o app um JSON com um boolean informando TRUE se as duas informações forem verdadeiras e FALSE se alguma não for. 
 
