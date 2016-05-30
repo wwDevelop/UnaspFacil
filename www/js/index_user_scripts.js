@@ -45,11 +45,7 @@
     });
     
         /* graphic button  #Saida */
-    $(document).on("click", "#Saida", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#saida"); 
-    });
+    
     
         /* graphic button  Culto */
     $(document).on("click", ".uib_w_7", function(evt)
@@ -174,11 +170,7 @@
     
     
         /* graphic button  #saida */
-    $(document).on("click", "#saida", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#saida"); 
-    });
+    
     
         /* graphic button  #culto */
     $(document).on("click", "#culto", function(evt)
@@ -198,11 +190,7 @@
     });
     
         /* button  #saida-voltar */
-    $(document).on("click", "#saida-voltar", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#main-menu"); 
-    });
+    
     
         /* button  #loginbtn */
     $(document).on("click", "#loginbtn", function(evt)
@@ -272,6 +260,42 @@
     {
          /*global activate_page */
          activate_page("#Lavanderia"); 
+    });
+    
+        /* button  #saida-voltar */
+    $(document).on("click", "#saida-voltar", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#Calendario"); 
+    });
+    
+        
+    $(document).on("click", "#fazersaida", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
+    });
+    
+        /* button  Button */
+    $(document).on("click", ".uib_w_42", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
+    });
+    
+    
+        /* graphic button  #saida */
+    $(document).on("click", "#saida", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#Saida"); 
+    });
+    
+        
+    $(document).on("click", "#voltar", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
     });
     
     }
