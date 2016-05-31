@@ -466,7 +466,7 @@ label:empty {
 }
 @media all and (min-width: 320px) {
   .row-height-2 > .col > .content-area {
-    min-height: 607px;
+    min-height: 25px;
   }
 }
 @media all {
@@ -813,7 +813,7 @@ label:empty {
 }
 @media all and (min-width: 320px) {
   .row-height-3 > .col > .content-area {
-    min-height: 213px;
+    min-height: 229px;
   }
 }
 @media all and (min-width: 320px) {
@@ -891,27 +891,9 @@ label:empty {
 .checkbox-padding-left {
   padding-left: 20px;
 }
-.uib_row_5:not(.cright) > .col {
-  padding-right: 20px;
-}
-.uib_row_5.cright > .col {
-  padding-left: 20px;
-}
-@media all {
-  .col-1_12-12 {
-    width: auto;
-    float: none !important;
-  }
-  .urow:not(.cright) > .col-1_12-12 {
-    padding-right: 0px !important;
-  }
-  .urow.cright > .col-1_12-12 {
-    padding-left: 0px !important;
-  }
-}
 @media all and (min-width: 320px) {
   .row-height-5 > .col > .content-area {
-    min-height: 40px;
+    min-height: 87px;
   }
 }
 @media all {
@@ -922,8 +904,8 @@ label:empty {
 @media all {
   .uib-absolute-positioning-3 {
     top: auto;
-    right: 70.75px;
-    bottom: 52.734375px;
+    right: 54.75px;
+    bottom: 56.734375px;
     left: auto;
   }
 }
@@ -1866,7 +1848,7 @@ label:empty {
 }
 @media all {
   .logo-login img {
-    width: 100%;
+    width: 60%;
   }
 }
 .card_col > .widget {
@@ -3288,5 +3270,55 @@ label:empty {
     -o-flex: 0 0 auto !important;
     flex: 0 0 auto !important;
     width: 100%;
+  }
+}
+@media all {
+  .wrapping-col > .app-logo-margin,
+  .wrapping-col > .afScrollPanel > .app-logo-margin {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .wrapping-col > .app-logo-margin,
+  .wrapping-col > .afScrollPanel > .app-logo-margin {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}
+@media all and (min-width: 320px) {
+  .row-height-30 > .col > .content-area {
+    min-height: 44px;
+  }
+}
+.uib_row_30:not(.cright) > .col {
+  padding-right: 20px;
+}
+.uib_row_30.cright > .col {
+  padding-left: 20px;
+}
+@media all {
+  .col-0_12-12 {
+    width: auto;
+    float: none !important;
+  }
+  .urow:not(.cright) > .col-0_12-12 {
+    padding-right: 0px !important;
+  }
+  .urow.cright > .col-0_12-12 {
+    padding-left: 0px !important;
+  }
+}
+@media all {
+  .wrapping-col > .login-btn,
+  .wrapping-col > .afScrollPanel > .login-btn {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .wrapping-col > .login-btn,
+  .wrapping-col > .afScrollPanel > .login-btn {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .login-btn {
+    margin-top: 10px;
   }
 }

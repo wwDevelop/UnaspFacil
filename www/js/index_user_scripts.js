@@ -306,6 +306,14 @@
          return false;
     });
     
+        /* button  #loginbtn */
+    $(document).on("click", "#loginbtn", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
+         return false;
+    });
+    
     }
  document.addEventListener("app.Ready", register_event_handlers, false);
 })();
