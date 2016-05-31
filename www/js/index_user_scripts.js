@@ -298,6 +298,14 @@
          activate_page("#main-menu"); 
     });
     
+        /* button  #btm-saida-voltar */
+    $(document).on("click", "#btm-saida-voltar", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
+         return false;
+    });
+    
     }
  document.addEventListener("app.Ready", register_event_handlers, false);
 })();
