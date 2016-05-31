@@ -1862,8 +1862,6 @@ label:empty {
 @media all and (min-width: 320px) {
   .row-height-26 > .col > .content-area {
 
-    min-height: 100px;
-
     min-height: 42px;
 
   }
