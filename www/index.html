@@ -225,7 +225,7 @@
                             <div class="widget-container content-area vertical-col">
                                 <span class="uib_shim"></span>
                             </div>
-                            <button class="btn widget uib_w_19 uib-absolute d-margins uib-absolute-positioning-6 width btn-default" data-uib="twitter%20bootstrap/button" data-ver="1">Voltar</button>
+                            <button class="btn widget uib_w_19 uib-absolute d-margins uib-absolute-positioning-6 width btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn-volta-calendario">Voltar</button>
                         </div>
                         <span class="uib_shim"></span>
                     </div>
@@ -246,7 +246,7 @@
                             <div class="widget-container content-area vertical-col">
                                 <span class="uib_shim"></span>
                             </div>
-                            <button class="btn widget uib_w_20 uib-absolute d-margins uib-absolute-positioning-7 width btn-default" data-uib="twitter%20bootstrap/button" data-ver="1">Voltar</button>
+                            <button class="btn widget uib_w_20 uib-absolute d-margins uib-absolute-positioning-7 width btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="brn-voltar-renovacao">Voltar</button>
                         </div>
                         <span class="uib_shim"></span>
                     </div>
@@ -267,7 +267,7 @@
                             <div class="widget-container content-area vertical-col">
                                 <span class="uib_shim"></span>
                             </div>
-                            <button class="btn widget uib_w_21 uib-absolute d-margins uib-absolute-positioning-8 width btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btm-voltar-lavanderia"><i class="glyphicon glyphicon-repeat button-icon-left" data-position="left"></i>Voltar</button>
+                            <button class="btn widget uib_w_21 uib-absolute d-margins uib-absolute-positioning-8 width btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn-voltar-lavanderia"><i class="glyphicon glyphicon-repeat button-icon-left" data-position="left"></i>Voltar</button>
                         </div>
                         <span class="uib_shim"></span>
                     </div>
@@ -279,7 +279,10 @@
                 <div class="uib-header header-bg container-group inner-element uib_w_13" data-uib="layout/header" data-ver="0">
                     <h2>Area Culto</h2>
                     <div class="widget-container wrapping-col single-centered"></div>
-                    <div class="widget-container content-area horiz-area wrapping-col left"></div>
+                    <div class="widget-container content-area horiz-area wrapping-col left">
+                        <button class="btn widget uib_w_48 d-margins btn-xs btn-success" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn-menu-culto"><i class="glyphicon glyphicon-th-list" data-position="icon only"></i>
+                        </button>
+                    </div>
                     <div class="widget-container content-area horiz-area wrapping-col right"></div>
                 </div>
                 <div class="upage-content ac0 content-area vertical-col" id="page_13_18">
@@ -291,14 +294,13 @@
                                 <span class="uib_shim"></span>
                             </div>
 
-                            <button class="btn widget uib_w_24 uib-absolute d-margins uib-absolute-positioning-11 width btn-success" data-uib="twitter%20bootstrap/button" data-ver="1" id="btm-voltar-culto"><i class="glyphicon glyphicon-repeat button-icon-left" data-position="left"></i>Voltar</button>
+                            <button class="btn widget uib_w_24 uib-absolute d-margins uib-absolute-positioning-11 width btn-success" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn-voltar-culto"><i class="glyphicon glyphicon-repeat button-icon-left" data-position="left"></i>Voltar</button>
                         </div>
                         <span class="uib_shim"></span>
                     </div>
                 </div>
 
-                <div class="inner-element uib_w_41 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':200, 'side':'left', 'oh':10, 'dur':10}">
-                    <div class="sidebar-thumb"></div>
+                <div class="inner-element uib_w_41 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':200, 'side':'left', 'dur':10}" id="slide-lateral">
 
                     <div class="sidebar-content content-area vertical-col">
 
@@ -312,55 +314,56 @@
                             <span class="uib_shim"></span>
                         </div>
                         <div class="list-group widget uib_w_42 d-margins" data-uib="twitter%20bootstrap/list_group" data-ver="1">
-                            <a class="list-group-item allow-badge widget uib_w_43" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btm-slider-janeiro">
+                            <a class="list-group-item allow-badge widget uib_w_43" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btn-slide-janeiro">
                                 <h4 class="list-group-item-heading">Janeiro</h4>
 
                             </a>
-                            <a class="list-group-item allow-badge widget uib_w_44" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btm-slider-fevereiro">
+                            <a class="list-group-item allow-badge widget uib_w_44" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btn-slide-fevereiro">
                                 <h4 class="list-group-item-heading">Fevereiro</h4>
 
                             </a>
-                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btm-slider-marco">
+                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btn-slide-marco">
 
                                 <h4 class="list-group-item-heading">Março</h4>
                             </a>
-                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btm-slider-abril">
+                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btn-slide-abril">
 
                                 <h4 class="list-group-item-heading">Abril</h4>
                             </a>
-                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btm-slider-maio">
+                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btn-slide-maio">
 
                                 <h4 class="list-group-item-heading">Maio</h4>
                             </a>
-                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btm-slider-junho">
+                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btn-slide-junho">
 
                                 <h4 class="list-group-item-heading">Junho</h4>
                             </a>
-                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btm-slider-julho">
+                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btn-slide-julho">
 
                                 <h4 class="list-group-item-heading">Julho</h4>
                             </a>
-                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btm-slider-agosto">
+                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btn-slide-agosto">
 
                                 <h4 class="list-group-item-heading">Agosto</h4>
                             </a>
-                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btm-slider-setembro">
+                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btn-slide-setembro">
 
                                 <h4 class="list-group-item-heading">Setembro</h4>
                             </a>
-                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btm-slider-outubro">
+                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btn-slide-outubro">
 
                                 <h4 class="list-group-item-heading">Outubro</h4>
                             </a>
-                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btm-slider-novembro">
+                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btn-slide-novembro">
 
                                 <h4 class="list-group-item-heading">Novembro</h4>
                             </a>
-                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btm-slider-dezembro">
+                            <a class="list-group-item allow-badge widget uib_w_45" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="btn-slide-dezembro">
 
                                 <h4 class="list-group-item-heading">Dezembro</h4>
                             </a>
                         </div>
+                        <button class="btn widget uib_w_49 d-margins btn-sm btn-danger" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn-slide-culto-vlt"><i class="glyphicon glyphicon-repeat button-icon-left" data-position="left"></i>Voltar</button>
                     </div>
                 </div>
             </div>
@@ -408,7 +411,7 @@
                                     <div class="col uib_col_18 col-1_12-12" data-uib="layout/col" data-ver="0">
                                         <div class="widget-container content-area vertical-col">
 
-                                            <button type="submit" class="btn widget uib_w_32 btn-success" data-uib="twitter%20bootstrap/button" data-ver="1" id="fazersaida"><i class="glyphicon glyphicon-sort button-icon-left" data-position="left"></i>Fazer Saída</button><span class="uib_shim"></span>
+                                            <button type="submit" class="btn widget uib_w_32 btn-success" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn-fazer-saida"><i class="glyphicon glyphicon-sort button-icon-left" data-position="left"></i>Fazer Saída</button><span class="uib_shim"></span>
                                         </div>
                                     </div>
 
@@ -456,7 +459,7 @@
 
                                 <span class="uib_shim"></span>
                             </div>
-                            <button class="btn widget uib_w_23 uib-absolute d-margins uib-absolute-positioning-10 width dodgerblue btn-success" data-uib="twitter%20bootstrap/button" data-ver="1" id="btm-saida-voltar"><i class="glyphicon glyphicon-repeat button-icon-left" data-position="left"></i>Voltar</button>
+                            <button class="btn widget uib_w_23 uib-absolute d-margins uib-absolute-positioning-10 width dodgerblue btn-success" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn-saida-voltar"><i class="glyphicon glyphicon-repeat button-icon-left" data-position="left"></i>Voltar</button>
                         </div>
                         <span class="uib_shim"></span>
                     </div>
