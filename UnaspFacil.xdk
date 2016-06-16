@@ -6,7 +6,11 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "6741ef7d-0bad-40a4-a256-750546815d39",
+<<<<<<< HEAD
       "lastModifiedDate": 1464742599281,
+=======
+      "lastModifiedDate": 1466087653995,
+>>>>>>> origin/master
       "creationDate": 1462667213782
     },
     "XDK-app-designer": "true",
@@ -77,6 +81,30 @@
         "name": "Splashscreen",
         "description": "Cordova Splashscreen Plugin",
         "checksum": "452a4659"
+      },
+      {
+        "id": "com-badrit-macaddress",
+        "name": "MacAddress",
+        "version": "0.2.0",
+        "originType": "repo",
+        "origin": "https://github.com/mohamed-salah/MacAddress.git",
+        "gitref": "",
+        "subdir": ".",
+        "paramvals": {},
+        "sourceLocation": "plugins/com-badrit-macaddress",
+        "selectedState": "Included",
+        "checksum": "e365f7d6",
+        "dependsOn": [],
+        "topLevel": true,
+        "permissions": {
+          "android:name": [
+            "android.permission.ACCESS_WIFI_STATE"
+          ]
+        },
+        "description": "Cordova MacAddress Plugin",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
       }
     ],
     "buildConfigurations": {
@@ -131,13 +159,13 @@
         ],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "certificateId_": "HMOOBEjpm0SfRKt0o1v5Kw2",
+        "certificateId_": "v4bCAXMiI02jazHt6Rs8dw2",
         "cordovaCLIVersion_": "5.4.1",
         "crosswalkVersion_": "17",
         "appVersion_": "0.1.3",
         "appAuthor_": "WWDevelop",
         "appDescription_": "App MultiFunção do UNASP",
-        "appVersionCode_": "002"
+        "appVersionCode_": "053"
       },
       "iOS": {
         "platform_": "ios",
