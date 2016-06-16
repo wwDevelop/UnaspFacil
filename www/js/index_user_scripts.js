@@ -242,6 +242,39 @@
          return false;
     });
     
+        /* button  #btn-menu-culto */
+    $(document).on("click", "#btn-menu-culto", function(evt)
+    {
+         /*global uib_sb */
+         /* Other possible functions are: 
+           uib_sb.open_sidebar($sb)
+           uib_sb.close_sidebar($sb)
+           uib_sb.toggle_sidebar($sb)
+            uib_sb.close_all_sidebars()
+          See js/sidebar.js for the full sidebar API */
+        
+         uib_sb.toggle_sidebar($("#slide-lateral"));  
+         return false;
+    });
+    
+        /* button  #btn-slide-culto-vlt */
+    
+    
+        /* button  #btn-slide-culto-vlt */
+    $(document).on("click", "#btn-slide-culto-vlt", function(evt)
+    {
+         /*global uib_sb */
+         /* Other possible functions are: 
+           uib_sb.open_sidebar($sb)
+           uib_sb.close_sidebar($sb)
+           uib_sb.toggle_sidebar($sb)
+            uib_sb.close_all_sidebars()
+          See js/sidebar.js for the full sidebar API */
+        
+         uib_sb.toggle_sidebar($("#slide-lateral"));  
+         return false;
+    });
+    
     }
  document.addEventListener("app.Ready", register_event_handlers, false);
 })();
