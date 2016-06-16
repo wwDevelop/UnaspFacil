@@ -114,7 +114,7 @@
                             <div class="widget-container content-area vertical-col">
                                 <label class="checkbox checkbox-padding-left widget uib_w_47 d-margins" data-uib="twitter%20bootstrap/checkbox" data-ver="1">
                                     <input type="checkbox" id="check-lembrar">Lembrar-me</label>
-                                <button class="btn widget uib_w_46 login-btn btn-info" data-uib="twitter%20bootstrap/button" data-ver="1" id="loginbtn">Login</button>
+                                <button class="btn widget uib_w_46 login-btn btn-info" data-uib="twitter%20bootstrap/button" data-ver="1" type="button" id="loginbtn">Login</button>
                                 <span class="uib_shim"></span>
                             </div>
                         </div>
@@ -125,40 +125,69 @@
 
             </div>
         </div>
-        <!-- SISTEMA DE LOGIN POR WEB SERVICE, A SER IMPLEMENTADO ASSIM QUE O DOUGLAS FIZER O WEB SERVICE
-        <script>
-            $("#loginform").submit(function(){
+                <script>
+             $("#loginbtn").on('click', function() {
                                 
-                                logindata= new Object();
+                logindata= new Object();
 
-                                logindata.login= $("#login").val();
-                                logindata.senha= $("#senha").val();
+                logindata.login= $("#login").val();
+                logindata.senha= $("#senha").val();
+                            
+                tjson=JSON.stringify(logindata);
                                 
-                                tjson=JSON.stringify(logindata);
-                                alert(tjson); /* DEBUGS : TIRAR QUANDO IMPLEMENTAR */
-                            }
-                        $.ajax({
-                            type: "POST",
-                            contentType:"application/json; charset=utf-8",
-                            url: "175.123.88.11/login", /*EXEMPLO DE SERVIDOR, MUDAR QUANDO TIVER UM SERVIDOR FUNCIONANDO */
-                            data: tjson,
-                            success: function() {
-                                alert("Login Efetuado com Sucesso");
+                    window.MacAddress.getMacAddress(
+                        function(macAddress) {
                                 
+                            jsondata= new Object;
+                            jsondata.macaddress=(macAddress);
+                                
+                            macjson=JSON.stringify(jsondata);
+                                
+                                $.ajax({
+                                type: "POST",
+                                dataType: "json",
+                                contentType: "application/json; charset=utf-8",
+                                url: "diogoatc.pythonanywhere.com/api/postmac",
+                                data: macjson,
+                                success: function(){
                                     
-                            },
-                            error: function (xhr, ajaxOptions, thrownError) {
-                                alert("Usuário ou senha incorretos. Favor entrar em contato com a Coordenação dos Laboratórios");
-                                alert(xhr.status); /* DEBUGS : TIRAR QUANDO IMPLEMENTAR */
-                                alert(thrownError); /* DEBUGS : TIRAR QUANDO IMPLEMENTAR */
+                                    alert("sucesso MAC");
+                                },
+                                error: function(xhr, ajaxOptions, trhownError){
+                                     alert("ERRO MAC");
+                                    alert(xhr.status); 
+                                    alert(thrownError); 
+                                }
+                                }) 
+                            }
+                    );
+                            
+                $.ajax({
+                    type: "POST",
+                    dataType: "json",
+                    contentType:"application/json; charset=utf-8",
+                    url: "http://diogoatc.pythonanywhere.com/api/login", 
+                    data: tjson,
+                    success: function(r) {
+                        if(r.data=="ok")                
+                            activate_page("#main-menu");
+                        else
+                            alert("USUARIO OU SENHA ERRADOS, FAVOR ENTRAR EM CONTATO COM A COORDENAÇÃO DOS LABORATÓRIOS");
+                               
+                                    
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert("ERRO");
+                        alert(xhr.status); /* DEBUGS : TIRAR QUANDO IMPLEMENTAR */
+                        alert(thrownError); /* DEBUGS : TIRAR QUANDO IMPLEMENTAR */
 
                                 /* FALTA INSERIR A RESPOSTA DO WEBSERVICE */
-      }
-    })
-    })
+                    }
+                })
+             })
                                 
         </script>
-        -->
+    
         <div class="upage hidden vertical-col back-color" id="main-menu">
 
             <div class="grid grid-pad urow uib_row_24 row-height-24" data-uib="layout/row" data-ver="0">
