@@ -143,11 +143,12 @@
                                 
                             macjson=JSON.stringify(jsondata);
                                 
+                            
                                 $.ajax({
                                 type: "POST",
                                 dataType: "json",
                                 contentType: "application/json; charset=utf-8",
-                                url: "diogoatc.pythonanywhere.com/api/postmac",
+                                url: "http://diogoatc.pythonanywhere.com/api/postmac",
                                 data: macjson,
                                 success: function(){
                                     
