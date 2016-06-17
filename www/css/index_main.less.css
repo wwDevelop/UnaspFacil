@@ -466,7 +466,7 @@ label:empty {
 }
 @media all and (min-width: 320px) {
   .row-height-2 > .col > .content-area {
-    min-height: 25px;
+    min-height: 120px;
   }
 }
 @media all {
@@ -813,7 +813,7 @@ label:empty {
 }
 @media all and (min-width: 320px) {
   .row-height-3 > .col > .content-area {
-    min-height: 229px;
+    min-height: 197px;
   }
 }
 @media all and (min-width: 320px) {
