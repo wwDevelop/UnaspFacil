@@ -291,6 +291,14 @@
          return false;
     });
     
+        /* button  #logout */
+    $(document).on("click", "#logout", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#login"); 
+         return false;
+    });
+    
     }
  document.addEventListener("app.Ready", register_event_handlers, false);
 })();
