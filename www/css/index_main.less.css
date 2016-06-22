@@ -1523,7 +1523,7 @@ label:empty {
 @media all {
   .back-color {
     background-color: ;
-    background-image: url("../images/main-menu/back-menu.gif");
+    background-image: url("../images/page-saida/Página 3.gif");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -3426,5 +3426,62 @@ label:empty {
   .teste ::-webkit-input-placeholder {
     text-align: center;
     line-height: normal;
+  }
+}
+.uib_row_32:not(.cright) > .col {
+  padding-right: 20px;
+}
+.uib_row_32.cright > .col {
+  padding-left: 20px;
+}
+@media all {
+  .col-0_12-12 {
+    width: auto;
+    float: none !important;
+  }
+  .urow:not(.cright) > .col-0_12-12 {
+    padding-right: 0px !important;
+  }
+  .urow.cright > .col-0_12-12 {
+    padding-left: 0px !important;
+  }
+}
+@media all and (min-width: 320px) {
+  .row-height-32 > .col > .content-area {
+    min-height: 160px;
+  }
+}
+@media all {
+  .saida-logo img {
+    width: 43%;
+    height: 43%;
+  }
+}
+@media all {
+  .wrapping-col > .saida-img-margin,
+  .wrapping-col > .afScrollPanel > .saida-img-margin {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .wrapping-col > .saida-img-margin,
+  .wrapping-col > .afScrollPanel > .saida-img-margin {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .vertical-col > .saida-img-margin,
+  .vertical-col > .afScrollPanel > .saida-img-margin {
+    margin-left: 10%;
+  }
+  .vertical-col > .saida-img-margin,
+  .vertical-col > .afScrollPanel > .saida-img-margin {
+    margin-left: 10%;
+  }
+  .saida-img-margin {
+    margin-top: 10px;
+  }
+}
+@media all {
+  .padding-img-saida figcaption {
+    padding: 0 px, 10px, 20px, 50px;
   }
 }
