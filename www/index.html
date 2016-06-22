@@ -432,8 +432,8 @@
                                     </form>
                                 </div>
                                 <div class="table-thing widget uib_w_26 d-margins" data-uib="twitter%20bootstrap/input" data-ver="1">
-                                    <label class="narrow-control label-top-left">Data e hora da volta</label>
-                                    <input id="datavolta" class="wide-control form-control default" type="datetime-local" placeholder="Placeholder">
+                                    <label class="narrow-control label-top-left" for="horavolta">Hora de Retorno</label>
+                                    <input id="horavolta" class="wide-control form-control default" type="time">
                                 </div>
                                 <div class="table-thing widget uib_w_27 d-margins" data-uib="twitter%20bootstrap/input" data-ver="1">
                                     <label class="narrow-control label-top-left">Motivo da Saída</label>
@@ -470,7 +470,7 @@
                                 saidadata= new Object();
 
                                 saidadata.datadasaida= $("#datasaida").val();
-                                saidadata.datadavolta= $("#datavolta").val();
+                                saidadata.horavolta= $("#horavolta").val();
                                 saidadata.motivo= $("#motivosaida").val();
                                 saidadata.cidade= $("#cidadedestino").val();
                                 saidadata.local= $("#localdestino").val();
