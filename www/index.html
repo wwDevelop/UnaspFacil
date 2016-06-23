@@ -125,17 +125,32 @@
             </div>
         </div>
         <script>
+
+
+function setCookie(cname, cvalue, exdays) {
+   window.localStorage.setItem(cname, cvalue);
+}
+
+function delete_cookie( name ) {
+  document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+}
+
+function getCookie(cname) {
+    return window.localStorage.getItem(cname);
+}   
+
             $("#loginbtn").on('click', function() {
                                 
                 logindata= new Object();
 
                 logindata.login= $("#ra").val();
+                setCookie('ra', logindata.login, 1000);
                 logindata.senha= $("#senha").val();
                             
                 tjson=JSON.stringify(logindata);
                                 
                 
-                    window.MacAddress.getMacAddress(
+                    /*window.MacAddress.getMacAddress(
                         function(macAddress) {
                                 
                             jsondata= new Object;
@@ -160,7 +175,7 @@
                                 }
                                 }) 
                             }
-                    );
+                    );*/
                             
                 $.ajax({
                     type: "POST",
@@ -498,6 +513,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="rightContent widget-container">
+                                                <button onclick="alert(getCookie('ra'))">OLA</button> <BR>
                                                     <a class="uib-graphic-button widget uib_w_55 btn-fazer-saida-img-sizing" data-uib="media/graphic_button" data-ver="0" href="#">
                                                         <img src="images/page-saida/btn-fazersaida.gif">
                                                         <span class="uib-caption"></span>
