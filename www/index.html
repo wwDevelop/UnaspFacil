@@ -416,29 +416,46 @@
                 </div>
             </div>
         </div>
-        <div class="upage hidden back-color" id="Saida">
+        <div class="upage hidden back-saida" id="Saida">
             <div class="upage-outer">
 
                 <div class="upage-content ac0 content-area vertical-col left" id="page_14_10">
 
-                    <div class="grid grid-pad urow uib_row_32 row-height-32" data-uib="layout/row" data-ver="0">
-                        <div class="col uib_col_36 col-0_12-12" data-uib="layout/col" data-ver="0">
-                            <div class="widget-container content-area vertical-col">
-                                <div class="widget uib_w_51 saida-logo padding-img-saida" data-uib="media/img" data-ver="0">
-                                    <figure class="figure-align">
-                                        <img src="images/page-saida/icone-saida.gif">
-
-                                        <figcaption data-position="bottom"></figcaption>
-                                    </figure>
-                                </div>
-                                <span class="uib_shim"></span>
-                            </div>
-                        </div>
-                        <span class="uib_shim"></span>
-                    </div>
                     <div class="grid grid-pad urow uib_row_18 row-height-18 rest-of-height" data-uib="layout/row" data-ver="0">
                         <div class="col uib_col_14 col-0_12-12" data-uib="layout/col" data-ver="0">
                             <div class="widget-container content-area vertical-col center">
+                                <div class="grid grid-pad urow uib_row_33 row-height-33" data-uib="layout/row" data-ver="0">
+                                    <div class="col uib_col_36 col-1" data-uib="layout/col" data-ver="0">
+                                        <div class="widget-container content-area vertical-col">
+                                            <div class="widget uib_w_51 saida-logo" data-uib="media/img" data-ver="0">
+                                                <figure class="figure-align">
+                                                    <img src="images/page-saida/icone-saida.gif">
+
+                                                    <figcaption data-position="bottom"></figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="grid grid-pad urow uib_row_34 row-height-34" data-uib="layout/row" data-ver="0">
+                                                <div class="col uib_col_38 col-2_12-12" data-uib="layout/col" data-ver="0">
+                                                    <div class="widget-container content-area vertical-col">
+                                                        <div class="widget uib_w_52 logo-saida" data-uib="media/img" data-ver="0">
+                                                            <figure class="figure-align">
+                                                                <img src="images/page-saida/Img-saida.gif">
+                                                                <figcaption data-position="bottom"></figcaption>
+                                                            </figure>
+                                                        </div>
+                                                        <span class="uib_shim"></span>
+                                                    </div>
+                                                </div>
+                                                <span class="uib_shim"></span>
+                                            </div>
+
+                                            <span class="uib_shim"></span>
+                                        </div>
+                                    </div>
+
+                                    <span class="uib_shim"></span>
+                                </div>
+
                                 <div class="table-thing widget uib_w_25 forms-margins" data-uib="twitter%20bootstrap/input" data-ver="1">
                                     <!-- Inicio do form para pegar os dados da saida -->
                                     <form id="saidaform">
@@ -470,59 +487,32 @@
                                     <label class="narrow-control label-top-left">Responsável</label>
                                     <input id="responsavel" class="wide-control form-control default" type="text">
                                 </div>
-                                <div class="grid grid-pad urow uib_row_22 row-height-22" data-uib="layout/row" data-ver="0">
-                                    <div class="col uib_col_18 col-1_12-12" data-uib="layout/col" data-ver="0">
+                                <div class="grid grid-pad urow uib_row_39 row-height-39" data-uib="layout/row" data-ver="0">
+                                    <div class="col uib_col_39 col-1_12-12" data-uib="layout/col" data-ver="0">
                                         <div class="widget-container content-area vertical-col">
-
-                                            <button type="submit" class="btn widget uib_w_32 btn-success" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn-fazer-saida"><i class="glyphicon glyphicon-sort button-icon-left" data-position="left"></i>Fazer Saída</button><span class="uib_shim"></span>
+                                            <div class="sbs-container widget uib_w_53 d-margins" data-uib="layout/side_by_side" data-ver="0">
+                                                <div class="leftContent widget-container">
+                                                    <a class="uib-graphic-button widget uib_w_54 voltar-saida-img-size" data-uib="media/graphic_button" data-ver="0" href="#" id="voltar-saida">
+                                                        <img src="images/page-saida/btn-voltar.gif">
+                                                        <span class="uib-caption"></span>
+                                                    </a>
+                                                </div>
+                                                <div class="rightContent widget-container">
+                                                    <a class="uib-graphic-button widget uib_w_55 btn-fazer-saida-img-sizing" data-uib="media/graphic_button" data-ver="0" href="#">
+                                                        <img src="images/page-saida/btn-fazersaida.gif">
+                                                        <span class="uib-caption"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <span class="uib_shim"></span>
                                         </div>
                                     </div>
-
-                                    <!-- SISTEMA DE SAIDA POR WEBSERVICE
-        <script>
-            $("#saidaform").submit(function(){
-                                
-                                saidadata= new Object();
-
-                                saidadata.datadasaida= $("#datasaida").val();
-                                saidadata.horavolta= $("#horavolta").val();
-                                saidadata.motivo= $("#motivosaida").val();
-                                saidadata.cidade= $("#cidadedestino").val();
-                                saidadata.local= $("#localdestino").val();
-                                saidadata.telefone= $("#telefone").val();
-                                saidadata.responsavel= $("#responsavel").val();
-
-                                sjson=JSON.stringify(saidadata);
-                                alert(sjson); /* DEBUGS : TIRAR QUANDO IMPLEMENTAR */
-                            }
-                        $.ajax({
-                            type: "POST",
-                            contentType:"application/json; charset=utf-8",
-                            url: "175.123.88.11/login", /*EXEMPLO DE SERVIDOR, MUDAR QUANDO TIVER UM SERVIDOR FUNCIONANDO */
-                            data: tjson,
-                            success: function() {
-                                /* se a função enviar com sucesso o json, aguardar o retorno e informar ao usuário que a saída foi efetuada com sucesso ou que o usuário está bloqueado para sair */    
-                                
-                                    
-                            },
-                            error: function (xhr, ajaxOptions, thrownError) {
-                                alert("ERRO");
-                                alert(xhr.status); /* DEBUGS : TIRAR QUANDO IMPLEMENTAR */
-                                alert(thrownError); /* DEBUGS : TIRAR QUANDO IMPLEMENTAR */
-
-                                
-      }
-    })
-    })
-                                
-        </script>
-        -->
                                     <span class="uib_shim"></span>
                                 </div>
 
                                 <span class="uib_shim"></span>
                             </div>
-                            <button class="btn widget uib_w_23 uib-absolute d-margins uib-absolute-positioning-10 width dodgerblue btn-success" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn-saida-voltar"><i class="glyphicon glyphicon-repeat button-icon-left" data-position="left"></i>Voltar</button>
+
                         </div>
                         <span class="uib_shim"></span>
                     </div>

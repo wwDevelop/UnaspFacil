@@ -299,6 +299,22 @@
          return false;
     });
     
+        /* graphic button  #voltar-saida */
+    $(document).on("click", "#voltar-saida", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
+         return false;
+    });
+    
+        /* graphic button  #fazersaida */
+    $(document).on("click", "#fazersaida", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
+         return false;
+    });
+    
     }
  document.addEventListener("app.Ready", register_event_handlers, false);
 })();
