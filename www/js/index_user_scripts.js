@@ -90,19 +90,7 @@
     {
          /*global activate_page */
          activate_page("#CRM"); 
-    });
-    
-       
-    
-        /* button  LOGIN 
-    $(document).on("click", ".uib_w_5", function(evt)
-    {
-         global activate_page 
-         activate_page("#principal"); 
-    });
-     */
-      
-    
+    });    
     
         /* graphic button  #culto */
     $(document).on("click", "#culto", function(evt)
@@ -195,11 +183,7 @@
     });
     
         
-    $(document).on("click", "#fazersaida", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#main-menu"); 
-    });
+    
     
         /* button  Button */
     $(document).on("click", ".uib_w_42", function(evt)
@@ -307,13 +291,16 @@
          return false;
     });
     
-        /* graphic button  #fazersaida */
+        /* graphic button  #fazersaida 
     $(document).on("click", "#fazersaida", function(evt)
     {
-         /*global activate_page */
+         /*global activate_page 
          activate_page("#main-menu"); 
          return false;
     });
+    
+                */
+
     
     }
  document.addEventListener("app.Ready", register_event_handlers, false);

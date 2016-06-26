@@ -1474,24 +1474,6 @@ label:empty {
     left: 1px;
   }
 }
-.uib_row_18:not(.cright) > .col {
-  padding-right: 20px;
-}
-.uib_row_18.cright > .col {
-  padding-left: 20px;
-}
-@media all {
-  .col-0_12-12 {
-    width: auto;
-    float: none !important;
-  }
-  .urow:not(.cright) > .col-0_12-12 {
-    padding-right: 0px !important;
-  }
-  .urow.cright > .col-0_12-12 {
-    padding-left: 0px !important;
-  }
-}
 @media all and (min-width: 320px) {
   .row-height-18 > .col > .content-area {
     min-height: 644px;
@@ -3464,7 +3446,7 @@ label:empty {
 }
 @media all and (min-width: 320px) {
   .row-height-33 > .col > .content-area {
-    min-height: 150px;
+    min-height: 180px;
   }
 }
 .uib_row_34:not(.cright) > .col {
@@ -3499,7 +3481,7 @@ label:empty {
 }
 @media all and (min-width: 320px) {
   .row-height-35 > .col > .content-area {
-    min-height: 0px;
+    min-height: 431px;
   }
 }
 @media all {
@@ -3513,12 +3495,12 @@ label:empty {
 }
 @media all {
   .btn-fazer-saida-img-sizing > img {
-    width: 80%;
+    width: 90%;
   }
 }
 @media all and (min-width: 320px) {
   .row-height-36 > .col > .content-area {
-    min-height: 23px;
+    min-height: 63px;
   }
 }
 @media all and (min-width: 320px) {
@@ -3552,5 +3534,41 @@ label:empty {
 @media all and (min-width: 320px) {
   .row-height-39 > .col > .content-area {
     min-height: 18px;
+  }
+}
+.uib_row_35:not(.cright) > .col {
+  padding-right: 20px;
+}
+.uib_row_35.cright > .col {
+  padding-left: 20px;
+}
+@media all {
+  .col-0_12-12 {
+    width: auto;
+    float: none !important;
+  }
+  .urow:not(.cright) > .col-0_12-12 {
+    padding-right: 0px !important;
+  }
+  .urow.cright > .col-0_12-12 {
+    padding-left: 0px !important;
+  }
+}
+.uib_row_36:not(.cright) > .col {
+  padding-right: 20px;
+}
+.uib_row_36.cright > .col {
+  padding-left: 20px;
+}
+@media all {
+  .col-1_12-12 {
+    width: auto;
+    float: none !important;
+  }
+  .urow:not(.cright) > .col-1_12-12 {
+    padding-right: 0px !important;
+  }
+  .urow.cright > .col-1_12-12 {
+    padding-left: 0px !important;
   }
 }
