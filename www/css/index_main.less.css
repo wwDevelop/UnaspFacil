@@ -3508,7 +3508,7 @@ label:empty {
 }
 @media all and (min-width: 320px) {
   .row-height-37 > .col > .content-area {
-    min-height: 140px;
+    min-height: 0px;
   }
 }
 @media all and (min-width: 320px) {
