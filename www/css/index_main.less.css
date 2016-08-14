@@ -3468,7 +3468,9 @@ label:empty {
   }
 }
 @media all {
-  
+  .logo-saida img {
+    width: 40%;
+  }
 }
 @media all {
   .back-saida {
@@ -3477,6 +3479,7 @@ label:empty {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
   }
 }
 @media all and (min-width: 320px) {
@@ -3500,12 +3503,12 @@ label:empty {
 }
 @media all and (min-width: 320px) {
   .row-height-36 > .col > .content-area {
-    min-height: 63px;
+    min-height: 440px;
   }
 }
 @media all and (min-width: 320px) {
   .row-height-37 > .col > .content-area {
-    min-height: 0px;
+    min-height: 140px;
   }
 }
 @media all and (min-width: 320px) {
@@ -3569,6 +3572,24 @@ label:empty {
     padding-right: 0px !important;
   }
   .urow.cright > .col-1_12-12 {
+    padding-left: 0px !important;
+  }
+}
+.uib_row_37:not(.cright) > .col {
+  padding-right: 20px;
+}
+.uib_row_37.cright > .col {
+  padding-left: 20px;
+}
+@media all {
+  .col-2_12-12 {
+    width: auto;
+    float: none !important;
+  }
+  .urow:not(.cright) > .col-2_12-12 {
+    padding-right: 0px !important;
+  }
+  .urow.cright > .col-2_12-12 {
     padding-left: 0px !important;
   }
 }
