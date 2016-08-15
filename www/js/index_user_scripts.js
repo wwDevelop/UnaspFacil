@@ -302,6 +302,22 @@
                 */
 
     
+        /* graphic button  #btn-volta-saida */
+    $(document).on("click", "#btn-volta-saida", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
+         return false;
+    });
+    
+        /* graphic button  #voltar */
+    $(document).on("click", "#voltar", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
+         return false;
+    });
+    
     }
  document.addEventListener("app.Ready", register_event_handlers, false);
 })();

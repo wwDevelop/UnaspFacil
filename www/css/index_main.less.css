@@ -439,12 +439,12 @@ label:empty {
   .wrapping-col > .d-margins,
   .wrapping-col > .afScrollPanel > .d-margins {
     margin-left: 6px;
-    margin-right: 3px;
+    margin-right: 10px;
   }
   .wrapping-col > .d-margins,
   .wrapping-col > .afScrollPanel > .d-margins {
     margin-left: 6px;
-    margin-right: 3px;
+    margin-right: 10px;
   }
   .d-margins {
     margin-top: 6px;
@@ -1252,7 +1252,6 @@ label:empty {
 }
 @media all {
   .hover-graphic-button:hover {
-    border-radius: 10px;
     background-color: ;
   }
 }
@@ -1264,24 +1263,16 @@ label:empty {
 }
 @media all {
   .default-graphic-text {
-    text-align: center;
+    text-align: right;
   }
 }
 @media all {
-  .default-graphic-sizing {
-    height: 20% !important;
-    width: 100%   !important;
-    -webkit-flex: 0 0 auto !important;
-    -moz-flex: 0 0 auto !important;
-    -ms-flex: 0 0 auto !important;
-    -o-flex: 0 0 auto !important;
-    flex: 0 0 auto !important;
-  }
+  
 }
 @media all {
   .default-image-sizing > img {
-    width: 100%;
-    height: 50px;
+    margin: 5px;
+    width: 40%;
   }
 }
 @media all {
@@ -1488,14 +1479,7 @@ label:empty {
   }
 }
 @media all {
-  .vertical-col > .imgmargins,
-  .vertical-col > .afScrollPanel > .imgmargins {
-    margin-left: -1px;
-  }
-  .vertical-col > .imgmargins,
-  .vertical-col > .afScrollPanel > .imgmargins {
-    margin-left: -1px;
-  }
+  
 }
 @media all {
   .menu-img-sizing > img {
