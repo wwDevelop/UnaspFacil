@@ -318,6 +318,14 @@
          return false;
     });
     
+        /* graphic button  .uib_w_63 */
+    $(document).on("click", ".uib_w_63", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#main-menu"); 
+         return false;
+    });
+    
     }
  document.addEventListener("app.Ready", register_event_handlers, false);
 })();
