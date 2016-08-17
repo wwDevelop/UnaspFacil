@@ -885,7 +885,8 @@ label:empty {
 }
 @media all {
   .scale-image img {
-    width: 60%;
+    width: 50%;
+    height: 50%;
   }
 }
 .checkbox-padding-left {
@@ -3223,13 +3224,17 @@ label:empty {
 @media all {
   .wrapping-col > .app-logo-margin,
   .wrapping-col > .afScrollPanel > .app-logo-margin {
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   .wrapping-col > .app-logo-margin,
   .wrapping-col > .afScrollPanel > .app-logo-margin {
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .app-logo-margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 @media all and (min-width: 320px) {
@@ -3412,7 +3417,7 @@ label:empty {
 }
 @media all {
   .padding-img-saida figcaption {
-    padding: 0 px, 10px, 20px, 50px;
+    padding: 10px,20px,50px,80px;
   }
 }
 .uib_row_33 > .col {
@@ -3472,55 +3477,124 @@ label:empty {
   }
 }
 @media all {
-  
+  .voltar-saida-btn-size {
+    width: 100% !important;
+    -webkit-flex: 0 0 auto !important;
+    -moz-flex: 0 0 auto !important;
+    -ms-flex: 0 0 auto !important;
+    -o-flex: 0 0 auto !important;
+    flex: 0 0 auto !important;
+  }
 }
 @media all {
   .voltar-saida-img-size > img {
-    margin: 5px;
     width: 50%;
   }
 }
 @media all {
   .btn-fazer-saida-img-sizing > img {
-    width: 90%;
+    width: 100%;
   }
 }
 @media all and (min-width: 320px) {
   .row-height-36 > .col > .content-area {
-    min-height: 440px;
+    min-height: 644px;
   }
 }
 @media all and (min-width: 320px) {
   .row-height-37 > .col > .content-area {
-    min-height: 0px;
+    min-height: 373px;
   }
 }
 @media all and (min-width: 320px) {
   .row-height-38 > .col > .content-area {
-    min-height: 31px;
+    min-height: 110px;
   }
 }
-.uib_row_39:not(.cright) > .col {
-  padding-right: 20px;
+.uib_row_39 > .col {
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.uib_row_39.cright > .col {
-  padding-left: 20px;
-}
-@media all {
-  .col-1_12-12 {
-    width: auto;
-    float: none !important;
+@media all and (min-width: 0px) {
+  .uib_col_41 {
+    width: 42%;
   }
-  .urow:not(.cright) > .col-1_12-12 {
+  .urow.cright > .uib_col_41 {
+    padding-left: 0px !important;
+  }
+  .urow:not(.cright) > .uib_col_41 {
+    clear: left;
+    padding-left: 0px !important;
+  }
+  .uib_col_42 {
+    width: 16%;
+  }
+  .uib_col_40 {
+    width: 42%;
+  }
+  .urow:not(.cright) > .uib_col_40 {
     padding-right: 0px !important;
   }
-  .urow.cright > .col-1_12-12 {
+  .urow.cright > .uib_col_40 {
+    clear: right;
+    padding-right: 0px !important;
+  }
+}
+@media all and (min-width: 0px) and (max-width: 0px) {
+  .uib_col_41.uib_col_41 {
+    width: auto;
+    float: none !important;
+    clear: both;
     padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .uib_col_42 {
+    width: 28%;
+  }
+  .urow.cright > .uib_col_42 {
+    padding-left: 0px !important;
+  }
+  .urow:not(.cright) > .uib_col_42 {
+    clear: left;
+    padding-left: 0px !important;
+  }
+  .uib_col_40 {
+    width: 71%;
+  }
+  .urow:not(.cright) > .uib_col_40 {
+    padding-right: 0px !important;
+  }
+  .urow.cright > .uib_col_40 {
+    clear: right;
+    padding-right: 0px !important;
+  }
+}
+@media all and (max-width: 152px) {
+  .col-2_5-12_5-5 {
+    width: auto;
+    float: none !important;
+    clear: both;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .col-2_2-12_2-7 {
+    width: auto;
+    float: none !important;
+    clear: both;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .col-2_5-12_5-7 {
+    width: auto;
+    float: none !important;
+    clear: both;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 }
 @media all and (min-width: 320px) {
   .row-height-39 > .col > .content-area {
-    min-height: 18px;
+    min-height: 48px;
   }
 }
 .uib_row_35:not(.cright) > .col {
@@ -3575,5 +3649,31 @@ label:empty {
   }
   .urow.cright > .col-2_12-12 {
     padding-left: 0px !important;
+  }
+}
+.uib_row_38:not(.cright) > .col {
+  padding-right: 20px;
+}
+.uib_row_38.cright > .col {
+  padding-left: 20px;
+}
+@media all {
+  .col-2_12-12 {
+    width: auto;
+    float: none !important;
+  }
+  .urow:not(.cright) > .col-2_12-12 {
+    padding-right: 0px !important;
+  }
+  .urow.cright > .col-2_12-12 {
+    padding-left: 0px !important;
+  }
+}
+@media all {
+  .uib-absolute-positioning-12 {
+    top: -2px;
+    right: auto;
+    bottom: auto;
+    left: 32px;
   }
 }

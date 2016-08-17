@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "6741ef7d-0bad-40a4-a256-750546815d39",
-      "lastModifiedDate": 1471201599321,
+      "lastModifiedDate": 1471387746163,
       "creationDate": 1462667213782
     },
     "XDK-app-designer": "true",
@@ -76,7 +76,7 @@
         "gitref": "",
         "name": "Splashscreen",
         "description": "Cordova Splashscreen Plugin",
-        "checksum": "c8aeabaf"
+        "checksum": "452a4659"
       },
       {
         "id": "com-badrit-macaddress",
@@ -117,7 +117,6 @@
           "Orientation": "portrait"
         },
         "isActive_": true,
-        "certificateId_": "v4bCAXMiI02jazHt6Rs8dw2",
         "appName_": "UnaspFacil",
         "appID_": "xdk.intel.blank.ad.template.crosswalk",
         "appAccess_": {
@@ -156,6 +155,7 @@
         ],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "v4bCAXMiI02jazHt6Rs8dw2",
         "cordovaCLIVersion_": "5.4.1",
         "crosswalkVersion_": "17",
         "appVersion_": "0.1.1",
@@ -172,7 +172,6 @@
           "deployment-target": "8.0"
         },
         "isActive_": true,
-        "certificateId_": "",
         "appName_": "UnaspFacil",
         "appID_": "xdk.intel.blank.ad.template",
         "appAccess_": {
@@ -197,6 +196,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "",
         "iosProvs_": [],
         "cordovaCLIVersion_": "5.4.1",
         "crosswalkVersion_": "16",
@@ -213,7 +213,6 @@
           "windows-publisher-id": ""
         },
         "isActive_": true,
-        "certificateId_": "",
         "appName_": "UnaspFacil",
         "appID_": "xdk.intel.blank.ad.template",
         "appAccess_": {
@@ -229,6 +228,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "",
         "cordovaCLIVersion_": "5.4.1",
         "crosswalkVersion_": "16",
         "appVersion_": "0.0.0.1",
@@ -241,7 +241,6 @@
         "name_": "WebApp",
         "preferences_": {},
         "isActive_": false,
-        "certificateId_": "",
         "appName_": "UnaspFacil",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -256,6 +255,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "",
         "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
@@ -265,7 +265,6 @@
         "name_": "Chrome",
         "preferences_": {},
         "isActive_": false,
-        "certificateId_": "",
         "appName_": "UnaspFacil",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -280,6 +279,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "",
         "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
@@ -289,7 +289,6 @@
         "name_": "Firefox",
         "preferences_": {},
         "isActive_": false,
-        "certificateId_": "",
         "appName_": "UnaspFacil",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -304,6 +303,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "",
         "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
@@ -313,7 +313,6 @@
         "name_": "Facebook",
         "preferences_": {},
         "isActive_": false,
-        "certificateId_": "",
         "appName_": "UnaspFacil",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -328,6 +327,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "",
         "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
@@ -337,7 +337,6 @@
         "name_": "WP81",
         "preferences_": {},
         "isActive_": true,
-        "certificateId_": "",
         "appName_": "UnaspFacil",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -352,6 +351,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "",
         "appVersion_": "0.0.0.1",
         "cordovaCLIVersion_": "5.4.1",
         "appAuthor_": "Intel XDK"
