@@ -205,15 +205,19 @@ function getCookie(cname) {
                              contentType:"application/json; charset=utf-8",
                              url: "175.123.88.11/login", 
                              data: tjson,
-                             success: function() {
+                             success: function(resp) {
                                  
-                                 
-                                     
+                                 if (resp.data=="liberado"){
+                                 	alert("Saida Liberada!! Vai com Deus, Filho!");
+                                     }else{
+										alert("Saída NÃO AUTORIZADA, favor entrar em contato com a Preceptoria");
+                                     }
                              },
                              error: function (xhr, ajaxOptions, thrownError) {
                                  alert("ERRO SAIDA");
                                  alert(xhr.status); 
                                  alert(thrownError); 
+                                 }
  
                                  
        }
@@ -493,28 +497,28 @@ function getCookie(cname) {
                                                             <input class="wide-control form-control default input-sm" type="date" placeholder="Insira a Data" id="data-saida">
                                                         </div>
                                                         <div class="table-thing widget uib_w_54 d-margins" data-uib="twitter%20bootstrap/input" data-ver="1">
-                                                            <label class="narrow-control label-top-left" for="hora-retorno">Hora de Retorno</label>
-                                                            <input class="wide-control form-control default input-sm" type="time" placeholder="Insira o Horário" id="hora-retorno">
+                                                            <label class="narrow-control label-top-left" for="horavolta">Hora de Retorno</label>
+                                                            <input class="wide-control form-control default input-sm" type="time" placeholder="Insira o Horário" id="horavolta">
                                                         </div>
                                                         <div class="table-thing widget uib_w_55 d-margins" data-uib="twitter%20bootstrap/input" data-ver="1">
-                                                            <label class="narrow-control label-top-left" for="mot-saida">Motivo de Saída</label>
-                                                            <input class="wide-control form-control default input-sm" type="text" placeholder="Insira o Motivo" id="mot-saida">
+                                                            <label class="narrow-control label-top-left" for="motivosaida">Motivo de Saída</label>
+                                                            <input class="wide-control form-control default input-sm" type="text" placeholder="Insira o Motivo" id="motivosaida">
                                                         </div>
                                                         <div class="table-thing widget uib_w_56 d-margins" data-uib="twitter%20bootstrap/input" data-ver="1">
-                                                            <label class="narrow-control label-top-left" for="cidade">Cidade</label>
-                                                            <input class="wide-control form-control default input-sm" type="text" placeholder="Insira a Cidade" id="cidade">
+                                                            <label class="narrow-control label-top-left" for="cidadedestino">Cidade</label>
+                                                            <input class="wide-control form-control default input-sm" type="text" placeholder="Insira a Cidade" id="cidadedestino">
                                                         </div>
                                                         <div class="table-thing widget uib_w_57 d-margins" data-uib="twitter%20bootstrap/input" data-ver="1">
-                                                            <label class="narrow-control label-top-left" for="local">Local</label>
-                                                            <input class="wide-control form-control default input-sm" type="text" placeholder="Insira o Local de Destino" id="local">
+                                                            <label class="narrow-control label-top-left" for="localdestino">Local</label>
+                                                            <input class="wide-control form-control default input-sm" type="text" placeholder="Insira o Local de Destino" id="localdestino">
                                                         </div>
                                                         <div class="table-thing widget uib_w_58 d-margins" data-uib="twitter%20bootstrap/input" data-ver="1">
                                                             <label class="narrow-control label-top-left" for="telefone">Telefone</label>
                                                             <input class="wide-control form-control default input-sm" type="tel" placeholder="Insira o Telefone" id="telefone">
                                                         </div>
                                                         <div class="table-thing widget uib_w_59 d-margins" data-uib="twitter%20bootstrap/input" data-ver="1">
-                                                            <label class="narrow-control label-top-left" for="resp">Responsável</label>
-                                                            <input class="wide-control form-control default input-sm" type="text" placeholder="Insira o Responsável" id="resp">
+                                                            <label class="narrow-control label-top-left" for="responsavel">Responsável</label>
+                                                            <input class="wide-control form-control default input-sm" type="text" placeholder="Insira o Responsável" id="responsavel">
                                                         </div>
 
                                                         <span class="uib_shim"></span>
