@@ -26,7 +26,8 @@
 <platform name="android">
     <!-- below requires the splash screen plugin -->
     <!-- docs: https://github.com/apache/cordova-plugin-splashscreen -->
-    <preference name="SplashMaintainAspectRatio" value="false" />
+    <preference name="SplashScreen" value="none"/>
+<preference name="SplashScreenDelay" value="0" />
 </platform>
 
 <!-- use this feature to add command-lines to be used by Crosswalk builds on device -->
