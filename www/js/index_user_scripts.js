@@ -219,12 +219,7 @@
     
     
         /* button  #loginbtn */
-    $(document).on("click", "#loginbtn", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#mainpage"); 
-         return false;
-    });
+    
     
         /* button  #btn-menu-culto */
     $(document).on("click", "#btn-menu-culto", function(evt)
@@ -323,6 +318,13 @@
     {
          /*global activate_page */
          activate_page("#main-menu"); 
+         return false;
+    });
+    
+        /* button  #loginbtn */
+    $(document).on("click", "#loginbtn", function(evt)
+    {
+        /* your code goes here */ 
          return false;
     });
     

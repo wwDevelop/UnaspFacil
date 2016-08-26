@@ -17,7 +17,17 @@
                 @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
                 /*@-ms-viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }   @viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }*/
         </style>
-
+        <script type="text/javascript">        
+            function verificarCookie() {
+                <?php
+                if (isset($_COOKIE['ra'])) {
+                    activate_page("#Login");
+                } else {
+                    activate_page("#main-menu");
+                }
+                ?>
+            }
+        </script>
         <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
         <script src="cordova.js" id="xdkJScordova_"></script>
@@ -41,7 +51,7 @@
         <script src="js/jquery.serializejson.js" type="text/javascript"></script>
     </head>
 
-    <body>
+    <body onload="verificarCookie()">
         <div class="upage back-login" id="login">
             <div class="upage-outer">
                 <div class="upage-content ac0 content-area vertical-col left" id="page_21_99">
